@@ -790,6 +790,11 @@ img {
   vertical-align: middle;
   display: inline-block;
 }
+#timg {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
 
 img + em {
   text-align: center;
@@ -884,7 +889,7 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
+  max-width: 1800px;
   position: relative;
 }
 
@@ -930,15 +935,17 @@ table tfoot td {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 240px;
+  width: 350px;
   height: 100%;
-  padding: 20px 10px;
-  background-color: #ffffff;
+  padding: 20px 50px;
+  background-color:rgb(240,240,240);
+     <!--     #ffffff -->
 }
 
 .about {
   margin: 0 0 40px;
   text-align: center;
+  padding-top:100px;
 }
 
 .about .cover-author-image {
@@ -1002,7 +1009,8 @@ table tfoot td {
 
 .content-box {
   padding: 20px;
-  padding-left: 260px;
+  padding-left: 500px;
+  padding-right: 200px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1019,6 +1027,7 @@ table tfoot td {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  background-color:rgb(250,250,250);
 }
 
 .contact .contact-title {
